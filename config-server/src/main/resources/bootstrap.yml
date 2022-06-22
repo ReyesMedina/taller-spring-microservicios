@@ -5,4 +5,14 @@ spring:
     config:
       server:
         git:
-          uri: 
+          uri: https://github.com/ReyesMedina/taller-spring-microservicios.git
+          search-paths: config-data
+          username: ${GIT_USER}
+          password: ${GIT_PASSWORD}
+
+
+  security:
+    user:
+      name: root
+      password: s3cr3t
+
